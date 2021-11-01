@@ -93,6 +93,7 @@ class BokListView(generic.ListView):
     queryset = Book.objects.filter(language__name__icontains='Japanese')
 
 
+
 class BokDetailView(generic.ListView):
     model = Book
     def get_queryset(self):
