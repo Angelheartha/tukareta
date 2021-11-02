@@ -1,1 +1,1 @@
-web: gunicorn locallibrary.wsgi --log-file -pup
+web: gunicorn locallibrary.wsgi --log-file -
