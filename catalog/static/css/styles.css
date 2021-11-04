@@ -5,7 +5,7 @@
 }
 
 body{
-local.png:pink;
-local.png-image: url("images/local.png");
-local.png-repeat: no-repeat;
+    background:pink;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
 }
